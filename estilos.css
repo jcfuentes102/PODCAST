@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    background-image:url("images/fondo.jpg"); 
+}
+#cont {
+    position:absolute;
+    top:15%;
+    left:40%;
+}
+
+h1 {
+    position: absolute;
+    top:-25px;
+    left:25px;
+    color:white;
+}
+
+li{
+    list-style-type: none; 
+    display: inline;
+}
