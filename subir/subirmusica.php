@@ -12,7 +12,7 @@ if ($_FILES['archivo']['size'] <= $MAX_SIZE) {
 
         if ($_FILES['archivo']['type'] == "audio/mpeg" or $_FILES['archivo']['type'] == "audio/mp3") {
             move_uploaded_file($_FILES['archivo']['tmp_name'], $destino2);
-            echo "<br>El audio <b>" . $archivo2 . "</b> se ha subido correctamente </br>";
+            echo "<span><br>El audio <b>" . $archivo2 . "</b> se ha subido correctamente</span> </br>";
             require '../clases/AutoCarga.php';
             $session = new Session();
             $canciones = $session->get("canciones");
@@ -49,19 +49,8 @@ if ($_FILES['archivo']['size'] <= $MAX_SIZE) {
                 <input type="file" name="archivo" multiple/>
                 <input type="submit" />
             </form>
-<!--            <ul id="songlist">
-                <li><a href="../sesion2/phpadd.php?cancion=Pepe">Pepe</a></li>
-                <li><a href="phpadd.php?cancion=Paco">Paco</a></li>
-                <li><a href="phpadd.php?cancion=Juan">Juan</a></li>
-                <li><a href="phpadd.php?cancion=Maria">Maria</a></li>
-                <li><a href="phpadd.php?cancion=Ana">Ana</a></li>
-            </ul>
-            <hr>
-            <ul id="addedsongs">
-                <?php
-                ?>
-            </ul>-->
-<!--            <a href="../sesion2/phpdelete.php">empezar la lista de nuevo</a>-->
+            <a href="../login/user.php">VOLVER</a>
+            <a href="../login/phplogout.php">LOGOUT</a>
         </div>
     </body>
 </html>

@@ -22,11 +22,12 @@ $user = $sesion->getUser();
             <form action="../subir/index.php" method="post" enctype="multipart/form-data">
             <ul>
                 <li><button name="boton1">Subir Canción</button></li>
-                <li><button name="boton2">Mostrar Usuarios</button></li>
-                <li><button name="boton3">Categorías</button></li>
-                <li><button name="boton4">Lista de canciones por categoría</button></li>
-            </ul>
             </form>
+            <form action="../clases/scan.php" method="post" enctype="multipart/form-data">
+                <li><button name="boton2">Mostrar Canciones</button></li>
+            </form>
+            </ul>
+            <a href="../login/phplogout.php">LOGOUT</a>
         </div>
     </body>
 </html>

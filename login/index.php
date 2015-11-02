@@ -24,7 +24,7 @@ $sesion = new Session();
         <?php 
             } else{
         ?>  
-                <a href="phplogout.php">logout</a>
+                <a href="phplogout.php" class="logout">LOGOUT</a>
                 <?php 
                     }
                 ?>

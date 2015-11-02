@@ -2,6 +2,7 @@ body {
     margin:0;
     background-image:url("images/fondo.jpg"); 
 }
+
 #cont {
     position:absolute;
     top:15%;
@@ -18,4 +19,51 @@ h1 {
 li{
     list-style-type: none; 
     display: inline;
+}
+
+span{
+    position:relative;
+    top:200px;
+    left:770px;
+}
+
+form {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position:relative;
+    top:700px;
+    left:350px;
+    font-size: 3em;
+}
+
+.logout{
+    text-decoration: none;
+    color: white;
+    position:relative;
+    top:700px;
+    left:-1280px;
+    font-size: 3em;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+#volver {
+    position:absolute;
+    top:250%;
+    left: 50%;
+}
+
+audio {
+    position:relative;
+    right:-200px;
+}
+
+html{
+    color:white;
 }

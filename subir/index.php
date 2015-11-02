@@ -13,6 +13,8 @@
             <input type="file" name="archivo" multiple/>
             <input type="submit" />
         </form>
+            <a href="../login/user.php">VOLVER</a>
+            <a href="phplogout.php" class="logout">LOGOUT</a>
         </div>
     </body>
 </html>
